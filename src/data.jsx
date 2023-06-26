@@ -4,10 +4,11 @@ const header = {
     title: 'Rakib S.',
   }
   
-  const about = {
+  const hero = {
     // all the properties are optional - can be left empty or deleted
     name: 'Rakib Sarowar',
     role: 'Front End Engineer',
+    image: 'https://i.ibb.co/HtS3YSR/avater-Photo.jpg',
     description:
       'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
     resume: 'https://example.com',
@@ -68,5 +69,5 @@ const header = {
     email: 'johnsmith@mail.com',
   }
   
-  export { header, about, projects, skills, contact }
+  export { header, hero as about, projects, skills, contact }
   
