@@ -4,7 +4,7 @@ import './Hero.css'
 
 
 const Hero = () => {
-    const { name, role, description, resume, social } = hero
+    const { name, role, description, resume, social, image } = hero
 
     return (
         <div className='hero-main'>
@@ -51,7 +51,9 @@ const Hero = () => {
                 </div>
 
             </div>
-            <div className='right'></div>
+            <div className='right'>
+                <img src={image} alt="" />
+            </div>
         </div>
     );
 };

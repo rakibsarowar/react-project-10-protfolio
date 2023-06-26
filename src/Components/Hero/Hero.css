@@ -2,6 +2,7 @@
     max-width: 1100px;
     width: 95%;
     margin: 0 auto;
+    display: flex;
 }
 .hero {
 
@@ -9,7 +10,17 @@
     align-items: start;
     margin-top: 3em;
 }
+.right{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 3em;  
+    margin-left: 5em;
+}
 
+.right img{
+    width: 400px;
+}
 .hero__name {
     color: var(--clr-primary);
 }
