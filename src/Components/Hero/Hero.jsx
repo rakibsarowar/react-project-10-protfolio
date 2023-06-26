@@ -16,37 +16,38 @@ const Hero = () => {
                         </h1>
                     )}
                     {role && <h2 className='hero__role'>A {role}.</h2>}
-                    <p className='about__desc'>{description && description}</p>
+                    <p className='hero__desc'>{description && description}</p>
+                    <div className='social'>
+                        {social && (
+                            <>
+                                {social.github && (
+                                    <a
+                                        href={social.github}
+                                        aria-label='github'
+                                        className='link link--icon'
+                                    > GitHub
+                                    </a>
+                                )}
+
+                                {social.linkedin && (
+                                    <a
+                                        href={social.linkedin}
+                                        aria-label='linkedin'
+                                        className='link link--icon'
+                                    > LinkedIn
+                                    </a>
+                                )}
+                            </>
+                        )}
+                    </div>
                 </div>
-                <div className='about__contact center'>
+                <div className='hero__contact center'>
                     {resume && (
                         <a href={resume}>
                             <span type='button' className='btn btn--outline'>
                                 Resume
                             </span>
                         </a>
-                    )}
-
-                    {social && (
-                        <>
-                            {social.github && (
-                                <a
-                                    href={social.github}
-                                    aria-label='github'
-                                    className='link link--icon'
-                                >
-                                </a>
-                            )}
-
-                            {social.linkedin && (
-                                <a
-                                    href={social.linkedin}
-                                    aria-label='linkedin'
-                                    className='link link--icon'
-                                >
-                                </a>
-                            )}
-                        </>
                     )}
                 </div>
 

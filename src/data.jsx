@@ -1,11 +1,9 @@
 const header = {
-    // all the properties are optional - can be left empty or deleted
-    homepage: 'https://rajshekhar26.github.io/cleanfolio',
+    homepage: 'https://',
     title: 'Rakib S.',
   }
   
   const hero = {
-    // all the properties are optional - can be left empty or deleted
     name: 'Rakib Sarowar',
     role: 'Front End Engineer',
     image: 'https://i.ibb.co/HtS3YSR/avater-Photo.jpg',
@@ -13,14 +11,12 @@ const header = {
       'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
     resume: 'https://example.com',
     social: {
-      linkedin: 'https://linkedin.com',
-      github: 'https://github.com',
+      linkedin: 'https://www.linkedin.com/in/rakibsarowar/',
+      github: 'https://github.com/rakibsarowar',
     },
   }
   
   const projects = [
-    // projects can be added an removed
-    // if there are no projects, Projects section won't show up
     {
       name: 'Project 1',
       description:
@@ -48,25 +44,23 @@ const header = {
   ]
   
   const skills = [
-    // skills can be added or removed
-    // if there are no skills, Skills section won't show up
     'HTML',
     'CSS',
+    'SASS',
+    'Tailwind CSS',
     'JavaScript',
-    'TypeScript',
     'React',
     'Redux',
-    'SASS',
-    'Material UI',
+    'Next',
+    'Vue',
+    'Firebase',
+    'Express',
+    'MongoDB',
     'Git',
-    'CI/CD',
-    'Jest',
-    'Enzyme',
   ]
   
   const contact = {
-    // email is optional - if left empty Contact section won't show up
-    email: 'johnsmith@mail.com',
+    email: 'rakibsarowar@mail.com',
   }
   
   export { header, hero as about, projects, skills, contact }

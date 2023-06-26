@@ -21,6 +21,13 @@
 .right img{
     width: 400px;
 }
+
+.right img:hover{
+    width: 420px;
+    padding: 8px;
+    border: 5px solid var(--clr-primary);
+}
+
 .hero__name {
     color: var(--clr-primary);
 }
@@ -29,18 +36,24 @@
     margin-top: 1.2em;
 }
 
-.about__desc {
+.hero__desc {
     font-size: 1rem;
     max-width: 600px;
 }
 
-.about__desc,
-.about__contact {
+.hero__desc,
+.hero__contact {
     margin-top: 2.4em;
+}
+.social{
+    margin-top: 0.5em;
+    display: flex;
+    gap: 0 30px;
+    font-weight: 700;
 }
 
 hero .link--icon {
-    margin-right: 0.8em;
+    margin-top: 2.4em;
 }
 
 hero .btn--outline {
