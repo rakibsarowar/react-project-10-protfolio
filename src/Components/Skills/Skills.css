@@ -23,3 +23,6 @@
   .section__title{
     color:var(--clr-fg-alt) !important ;
   }
+  .section{
+    height: 80vh;
+  }
