@@ -8,7 +8,7 @@ const header = {
     role: 'Front End Engineer',
     image: 'https://i.ibb.co/HtS3YSR/avater-Photo.jpg',
     description:
-      'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+      'I am an aspiring MERN Stack Developer with strong knowledge of JavaScript, Es6, React , Express, MongoDB. I seek out new knowledge and technology and actively develop my skills.',
     resume: 'https://example.com',
     social: {
       linkedin: 'https://www.linkedin.com/in/rakibsarowar/',
