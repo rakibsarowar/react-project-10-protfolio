@@ -20,4 +20,6 @@
   .btn--plain:hover{
     color:var(--clr-primary) ;
   }
-  
+  .section__title{
+    color:var(--clr-fg-alt) !important ;
+  }

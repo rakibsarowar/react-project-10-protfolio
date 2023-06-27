@@ -4,6 +4,7 @@
     height: 100vh-15em;
     margin: 0 auto;
     display: flex;
+    padding-bottom: 50px;
 }
 .hero {
 
@@ -35,6 +36,8 @@
 
 .hero__role {
     margin-top: 1.2em;
+    color:var(--clr-fg-alt) !important ;
+    font-weight: 600 !important;
 }
 
 .hero__desc {
@@ -60,6 +63,7 @@ hero .link--icon {
 hero .btn--outline {
     margin-right: 1em;
 }
+
 
 @media (max-width: 600px) {
     .app hero {
