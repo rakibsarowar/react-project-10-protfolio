@@ -10,4 +10,14 @@
   .skills__list-item {
     margin: 0.5em;
   }
+
+  .btn--plain {
+    background-color: var(--clr-bg-alt);
+    box-shadow: var(--clr-primary) 0px 1px 2px 0px;
+    border: 0;
+  }
+
+  .btn--plain:hover{
+    color:var(--clr-primary) ;
+  }
   
