@@ -22,6 +22,8 @@
   }
   .section__title{
     color:var(--clr-fg-alt) !important ;
+    font-size: 2rem;
+    font-weight: 700 !important;
   }
   .section{
     height: 80vh;
