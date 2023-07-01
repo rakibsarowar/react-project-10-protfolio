@@ -1,7 +1,7 @@
 .contact-form {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,6 +20,14 @@
     margin-top: 20px;
     margin-bottom: 15px;
     margin-right: 20px;
+    width: 400px;
+}
+
+.contact-form__group_textarea {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    width: 820px;
 }
 
 .contact-form label {
@@ -48,4 +56,5 @@
 .button {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }

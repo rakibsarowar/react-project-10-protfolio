@@ -57,7 +57,7 @@ const ContactMe = () => {
                 </div>
 
 
-                <div className="contact-form__group">
+                <div className="contact-form__group_textarea">
                     <label htmlFor="message">Message:</label>
                     <textarea
                         id="message"
