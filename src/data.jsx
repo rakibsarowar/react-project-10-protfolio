@@ -18,26 +18,29 @@ const header = {
   
   const projects = [
     {
-      name: 'Project 1',
+      name: 'DEFEND YOURSELF',
       description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
+        'This project features provides separate dashboards for allowing each role to access relevant information and perform specific actions.',
+      stack: ['Tailwind', 'React', 'MongoDB'],
+      image:'https://i.ibb.co/hdRMj74/Project-03.jpg',
+      sourceCode: 'https://github.com/rakibsarowar/mern-project-03-defend-yourself',
+      livePreview: 'https://defend-a92bd.web.app/',
+    },
+    {
+      name: 'LEGO WORLD',
+      description:
+        'In this the project, ensures the privacy of sensitive information by implementing private routing, allowing access only to authorized users.',
+      stack: ['Tailwind', 'React', 'MongoDB'],
+      image:'https://i.ibb.co/hdRMj74/Project-03.jpg',
       sourceCode: 'https://github.com',
       livePreview: 'https://github.com',
     },
     {
-      name: 'Project 2',
+      name: 'EASYMEAL RECIPES',
       description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
-    },
-    {
-      name: 'Project 3',
-      description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
+        'This project users can conveniently log in to the platform using their email credentials, Gmail accounts, or GitHub accounts and offering multiple authentication options.',
+      stack: ['Bootstrap', 'Firebase', 'React'],
+      image:'https://i.ibb.co/hdRMj74/Project-03.jpg',
       sourceCode: 'https://github.com',
       livePreview: 'https://github.com',
     },

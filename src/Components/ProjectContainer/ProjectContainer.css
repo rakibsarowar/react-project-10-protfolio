@@ -9,6 +9,10 @@
   .project:hover {
     transform: translateY(-7px);
   }
+  .project__image{
+    width: 300px;
+    margin-bottom: 30px;
+  }
   
   .project__description {
     margin-top: 1em;
