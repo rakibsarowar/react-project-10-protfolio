@@ -9,7 +9,7 @@ const header = {
     image: 'https://i.ibb.co/HtS3YSR/avater-Photo.jpg',
     description:
       'I am an aspiring MERN Stack Developer with strong knowledge of JavaScript, Es6, React , Express, MongoDB. I seek out new knowledge and technology and actively develop my skills.',
-    resume: 'https://example.com',
+    resume: 'https://drive.google.com/uc?export=download&id=1Wv1K-0Bm3-Sjm_Ki0V-fFnT0FjPCUkiJ',
     social: {
       linkedin: 'https://www.linkedin.com/in/rakibsarowar/',
       github: 'https://github.com/rakibsarowar',
