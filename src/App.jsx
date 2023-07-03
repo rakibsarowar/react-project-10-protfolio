@@ -16,6 +16,7 @@ const App = () => {
       <AboutMe></AboutMe>
       <Skills></Skills>
       <Projects></Projects>
+      <ContactMe></ContactMe>
     </div>
   );
 };

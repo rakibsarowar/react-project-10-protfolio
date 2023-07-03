@@ -59,6 +59,23 @@ hero .btn--outline {
     margin-right: 1em;
 }
 
+@keyframes floating {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.floating-image {
+    
+    animation: floating 8s ease-in-out infinite;
+}
+
 
 /* Responsive Style */
 @media screen and (max-width: 576px) {

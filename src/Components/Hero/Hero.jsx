@@ -53,7 +53,7 @@ const Hero = () => {
 
             </div>
             <div className='right'>
-                <img src={image} alt="" />
+                <img src={image} className='floating-image' alt="" />
             </div>
         </div>
     );
