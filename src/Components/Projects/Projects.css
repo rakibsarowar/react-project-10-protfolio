@@ -19,3 +19,15 @@
     align-items: center;
     justify-content: center;
 }
+
+/* Responsive Style */
+@media screen and (max-width: 576px) {
+    .section {
+        padding: 50px 0;
+    }
+
+    .projects__grid {
+        display: grid;
+        grid-template-columns: 1fr 400px;
+    }
+}

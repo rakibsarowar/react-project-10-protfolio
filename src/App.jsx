@@ -5,8 +5,8 @@ import Hero from './Components/Hero/Hero';
 import Skills from './Components/Skills/Skills';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects';
-import ContactMe from './Components/Skills/ContactME/ContactMe';
 import Footer from './Components/Footer/Footer';
+import ContactMe from './ContactMe/ContactMe';
 
 const App = () => {
   return (
