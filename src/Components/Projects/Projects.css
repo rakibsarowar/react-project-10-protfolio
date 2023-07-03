@@ -21,17 +21,16 @@
     margin-bottom: 100px;
 }
 
-/* Responsive Style */
 @media screen and (max-width: 576px) {
     .section {
         position: relative;
         display: block;
-        height: 80vh;
+        height: auto; /* Change height to auto */
     }
 
     .projects__grid {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 100px;
+        display: grid; /* Change back to grid */
+        grid-template-columns: 1fr; /* Display as a single column */
+        margin-bottom: 0; /* Remove margin-bottom */
     }
 }

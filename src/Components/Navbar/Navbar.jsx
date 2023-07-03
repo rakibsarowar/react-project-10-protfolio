@@ -9,6 +9,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className='center nav'>
       <div className='nav__hamburger' onClick={toggleMenu}>
@@ -16,15 +20,31 @@ const Navbar = () => {
       </div>
       <ul className={`nav__list ${isOpen ? 'open' : ''}`}>
         <li className='nav__list-item'>
-          <a className='link link--nav' href="#skills">Skills</a>
+          <a className='link link--nav' href="#home" onClick={closeMenu}>
+            Home
+          </a>
         </li>
         <li className='nav__list-item'>
-          <a className='link link--nav' href="#projects">Projects</a>
+          <a className='link link--nav' href="#skills" onClick={closeMenu}>
+            Skills
+          </a>
         </li>
         <li className='nav__list-item'>
-          <a className='link link--nav' href="#contact">Contact</a>
+          <a className='link link--nav' href="#projects" onClick={closeMenu}>
+            Projects
+          </a>
+        </li>
+        <li className='nav__list-item'>
+          <a className='link link--nav' href="#contact" onClick={closeMenu}>
+            Contact
+          </a>
         </li>
       </ul>
+      {isOpen && (
+        <div className="close-button" onClick={toggleMenu}>
+          <FaTimes />
+        </div>
+      )}
     </nav>
   );
 };

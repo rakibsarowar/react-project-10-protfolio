@@ -16,6 +16,10 @@
   margin-top: 0.4em;
 }
 
+.close-button {
+  display: none;
+}
+
 /* Updated styles for mobile view */
 @media (max-width: 600px) {
   .nav__list {
@@ -47,13 +51,34 @@
     margin-left: 0.8em;
   }
 
-  /* Add color to font and close icon */
   .link--nav {
     color: #333;
     font-weight: bold;
   }
 
   .nav__hamburger svg {
+    color: #333;
+  }
+
+  .nav__hamburger.open {
+    display: none;
+  }
+  .nav__list.open .close-button {
+    display: block;
+  }
+
+  /* Add the close-button class to the close icon */
+  .nav__list.open .nav__hamburger svg {
+    display: none;
+  }
+
+  .nav__list.open .close-button svg {
+    display: block;
+    position: absolute;
+    top: 0.8em;
+    right: 0.8em;
+    font-size: 1.5em;
+    cursor: pointer;
     color: #333;
   }
 }

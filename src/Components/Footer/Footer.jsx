@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='main_section'>
+        <div className='footer'>
             <p>© 2023 Rakib Sarowar - All rights reserved.</p>
         </div>
     );

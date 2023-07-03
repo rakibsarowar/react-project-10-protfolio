@@ -1,24 +1,26 @@
-.footer{
-    display: flex;
-    align-items: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-.main_section{
+.footer {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.main_section p{
+
+.footer p {
     font-weight: 200;
     font-size: 12px;
-    letter-spacing: 1.5px; 
+    letter-spacing: 1.5px;
     margin-top: 10px;
 }
 
-
-/* Responsive Style */
+/* Updated Responsive Style */
 @media screen and (max-width: 576px) {
 
+    .footer {
+        margin-top: 200px; 
+        margin-bottom: 0; 
+    }
+
+    .footer p {
+        font-size: 10px; 
+    }
+    
 }

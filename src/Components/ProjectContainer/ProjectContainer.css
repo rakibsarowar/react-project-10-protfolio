@@ -45,4 +45,14 @@
     text-align: center;
     box-shadow: var(--shadow);
   }
+
+  .project__stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.2em 0;
+  }
+  .project__description {
+    padding: 0 2.2em;
+  }
 }

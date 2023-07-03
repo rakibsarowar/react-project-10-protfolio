@@ -1,11 +1,12 @@
 .contact-form {
     max-width: 1200px;
     margin: 0 auto;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 
 }
 
@@ -60,10 +61,19 @@
 }
 
 
-/* Responsive Style */
 @media screen and (max-width: 576px) {
-    .contact-form{
-        display: block;
-        height: 100vh;
+    .contact-form {
+        height: auto;
+    }
+    .first_line {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .contact-form__group,
+    .contact-form__group_textarea {
+        width: 100%;
+        margin-right: 0;
     }
 }
