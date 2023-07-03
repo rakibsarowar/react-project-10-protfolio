@@ -6,7 +6,7 @@ const header = {
   const hero = {
     name: 'Rakib Sarowar',
     role: 'Front End Engineer',
-    image: 'https://i.ibb.co/HtS3YSR/avater-Photo.jpg',
+    image: 'https://i.ibb.co/1QH0LMR/Portfolio-Photo.jpg',
     description:
       'I am an aspiring MERN Stack Developer with strong knowledge of JavaScript, Es6, React , Express, MongoDB. I seek out new knowledge and technology and actively develop my skills.',
     resume: 'https://drive.google.com/uc?export=download&id=1Wv1K-0Bm3-Sjm_Ki0V-fFnT0FjPCUkiJ',

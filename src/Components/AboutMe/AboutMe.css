@@ -6,40 +6,76 @@
     justify-content: center;
     align-items: center;
 }
-.main-text{
+
+.main-text {
     width: 750px;
     text-align: center;
 }
-h2{
+
+h2 {
     font-weight: 400 !important;
     margin-top: 20px;
-    color: azure !important ; 
-    letter-spacing: 1.5px; 
+    color: azure !important;
+    letter-spacing: 1.5px;
     line-height: 3rem !important;
 }
 
-.aboutMe p{
-    letter-spacing: 3px; 
+.aboutMe p {
+    letter-spacing: 3px;
+}
+
+.waviy {
+    position: relative;
+}
+
+.waviy .space {
+    width: 10px;
+    /* Adjust the width as needed */
+    display: inline-block;
+}
+
+.waviy span {
+    font-weight: 400 !important;
+    margin-top: 20px;
+    color: azure !important;
+    letter-spacing: 2px;
+    line-height: 3rem !important;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 3s infinite;
+    animation-delay: calc(.2s * var(--i));
 }
 
 
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg);
+    }
+}
+
 /* Responsive Style */
 @media screen and (max-width: 576px) {
-    .main-text{
+    .main-text {
         width: 350px;
         text-align: center;
         padding: 0 20px;
     }
-    h2{
+
+    waviy span {
         font-weight: 200 !important;
         margin-top: 20px;
-        color: azure !important ; 
-        letter-spacing: 1px; 
+        color: azure !important;
+        letter-spacing: 1px;
         line-height: 2rem !important;
     }
-    
-    .aboutMe p{
-        letter-spacing: 3px; 
+
+    .aboutMe p {
+        letter-spacing: 3px;
     }
-    
+
 }
