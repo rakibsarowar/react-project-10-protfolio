@@ -33,15 +33,18 @@
     justify-content: center;
   }
 
-  
-/* Responsive Style */
-@media screen and (max-width: 576px) {
-  .section{
-    height: 500px;
+  .section_skills{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+  }
+  
+/* Responsive Style */
+@media screen and (max-width: 576px) {
+  .section{
+    height: fit-content;
+    margin-bottom: 5px;
   }
 }

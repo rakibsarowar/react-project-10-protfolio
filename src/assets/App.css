@@ -30,9 +30,6 @@
     margin: 0 auto;
   }
   
-  .section {
-    margin-top: 5em;
-  }
   
   .section__title {
     text-align: center;
@@ -142,11 +139,5 @@
   
   .btn--icon:active {
     transform: translateY(-5px);
-  }
-  
-  @media (max-width: 600px) {
-    .section {
-      margin-top: 4em;
-    }
   }
   

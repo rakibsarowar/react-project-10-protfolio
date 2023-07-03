@@ -4,9 +4,9 @@ import './assets/App.css'
 import Hero from './Components/Hero/Hero';
 import Skills from './Components/Skills/Skills';
 import AboutMe from './Components/AboutMe/AboutMe';
-import Projects from './Components/Projects/Projects';
 import Footer from './Components/Footer/Footer';
 import ContactMe from './ContactMe/ContactMe';
+import Projects from './Components/Projects/Projects';
 
 const App = () => {
   return (
@@ -16,8 +16,6 @@ const App = () => {
       <AboutMe></AboutMe>
       <Skills></Skills>
       <Projects></Projects>
-      <ContactMe></ContactMe>
-      <Footer></Footer>
     </div>
   );
 };

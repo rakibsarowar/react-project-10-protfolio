@@ -3,6 +3,7 @@
     align-items: row;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .main_section{
     text-align: center;
@@ -14,4 +15,10 @@
     font-size: 12px;
     letter-spacing: 1.5px; 
     margin-top: 10px;
+}
+
+
+/* Responsive Style */
+@media screen and (max-width: 576px) {
+
 }

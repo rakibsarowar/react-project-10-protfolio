@@ -58,3 +58,12 @@
     justify-content: center;
     margin-top: 50px;
 }
+
+
+/* Responsive Style */
+@media screen and (max-width: 576px) {
+    .contact-form{
+        display: block;
+        height: 100vh;
+    }
+}

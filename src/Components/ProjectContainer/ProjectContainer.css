@@ -36,3 +36,16 @@
     margin-left: 0.5em;
   }
   
+  
+/* Responsive Style */
+@media screen and (max-width: 576px) {
+  .project {
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s linear;
+    margin-bottom: 10px;
+    position: relative;
+  }
+}
